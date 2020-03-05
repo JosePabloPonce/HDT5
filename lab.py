@@ -15,7 +15,7 @@ cantidadprocesos = int(input ("Ingrese cantidad de procesos:\n"))
 tiempototal = 0
 
 #seed y ambiente
-random_seed = 50
+random_seed = int(input ("Ingrese Semilla:\n"))
 random.seed(random_seed)
 env = simpy.Environment()
 
@@ -83,7 +83,7 @@ def procesar1(procesador,instrucciones,ramasignada,actual,tiempo,env):
                          
                         with tiempo.request() as tiempo1:
                             yield tiempo1
-                            yield env.timeout(5)
+                            yield env.timeout(1)
                             
                     #Si se genera un dos se dirige a ready        
                     else:

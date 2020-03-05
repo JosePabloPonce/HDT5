@@ -9,4 +9,3 @@ por unidad de tiempo, esto debido a que al analizar los tiempos de las otras gra
 de tener intervalos de 1 o 5, este metodo reduce el tiempo promedio, de igual manera que se realize
 con intervalos de 10.
 
-Link de Github:

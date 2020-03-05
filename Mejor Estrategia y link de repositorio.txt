@@ -1,0 +1,12 @@
+Jose Pablo Ponce 19092
+
+Mejor Estrategia:
+
+Al analizar las diferentes graficas y los parametros que se le indican a cada una, 
+como lo es la cantidad de memoria, cantidad de procesadores, intervalos y cantidad de
+instrucciones que se procesan, concluyo que la mejor estrategia es procesar 6 instrucciones
+por unidad de tiempo, esto debido a que al analizar los tiempos de las otras graficas al momento
+de tener intervalos de 1 o 5, este metodo reduce el tiempo promedio, de igual manera que se realize
+con intervalos de 10.
+
+Link de Github:

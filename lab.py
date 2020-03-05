@@ -15,7 +15,7 @@ cantidadprocesos = int(input ("Ingrese cantidad de procesos:\n"))
 tiempototal = 0
 
 #seed y ambiente
-random_seed = int(input ("Ingrese Semilla:\n"))
+random_seed = 50
 random.seed(random_seed)
 env = simpy.Environment()
 
